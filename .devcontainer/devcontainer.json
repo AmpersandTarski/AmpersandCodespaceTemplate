@@ -1,0 +1,18 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Untitled ampersand project",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"postAttachCommand":"ampersand daemon",
+	"customizations": {
+		"vscode": {
+		  "extensions": ["ampersandtarski.language-ampersand"]
+		},
+		"codespaces": {
+			"openFiles": [
+				"Project/Example.adl"
+			]
+		}
+	}
+}
