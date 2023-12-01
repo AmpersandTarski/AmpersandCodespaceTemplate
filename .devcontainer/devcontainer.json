@@ -8,7 +8,7 @@
 		"source=minikube-config,target=/home/vscode/.minikube,type=volume"
 	],
 	"overrideCommand": false,
-	"postAttachCommand":"minikube start && ampersand daemon",
+	"postAttachCommand":"sh .devcontainer/startup.sh",
 
 	// Configure tool-specific properties.
 	"customizations": {
