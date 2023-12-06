@@ -27,6 +27,9 @@
 			]
 		}
 	},
+	"appPorts": [
+		"8000:80"
+	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
